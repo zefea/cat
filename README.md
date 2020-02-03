@@ -16,7 +16,7 @@ cat file1.txt > file2.txt
 
 cat file1.txt ">" 
   
-Read/write with 
+Read/write with option
 
 Example:
 
