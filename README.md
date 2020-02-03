@@ -7,17 +7,25 @@ cat's general syntax is
   cat [options] [filenames] [-] [filenames]
 
 Read/write without option
+
 Example:
+
 cat file1.txt
+
 cat file1.txt > file2.txt
+
 cat file1.txt ">" 
   
-Read/write with option
+Read/write with 
+
 Example:
 
 cat -b file1.txt file2.txt
+
 cat -b ">" file1.txt    	
+
 cat -n file1.txt ">" file2.txt
+
 cat -h 
 
 
