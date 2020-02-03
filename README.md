@@ -10,11 +10,13 @@ Read/write without option
 -----------------------------------------------------
 Example:
 
-cat file1.txt
+cat file1.txt				//reads the file1.txt
 
-cat file1.txt > file2.txt
+cat file1.txt > file2.txt		//copy file1.txt to file2.txt
 
-cat file1.txt ">" 
+cat file1.txt ">"			//ERROR
+
+cat ">" file1.txt			//takes input and write it in file1.txt
   
 Read/write with option
 -----------------------------------------------------
@@ -27,9 +29,9 @@ option 3 : -h explain how to use this program
 
 Example:
 
-cat -b file1.txt file2.txt
+cat -b file1.txt file2.txt	
 
-cat -b ">" file1.txt    	
+cat -b ">" file1.txt    	//takes an input and write it with numbers in file1.txt
 
 cat -n file1.txt ">" file2.txt
 
