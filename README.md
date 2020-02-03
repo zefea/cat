@@ -9,8 +9,8 @@ cat's general syntax is
 Read/write without option
 -----------------------------------------------------
 Example:
-
-cat file1.txt				//reads the file1.txt
+1.reads the file1.txt
+	cat file1.txt
 
 cat file1.txt > file2.txt		//copy file1.txt to file2.txt
 
